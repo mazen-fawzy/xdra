@@ -1,0 +1,83 @@
+:root{
+  --back-grond-box:rgba(0, 0, 46, 0.592);
+  --back-grond-box-ather:rgba(0, 0, 46, 0.69);
+  --border-radius: 6px;
+  --color:rgb(199, 192, 0);
+  --color-tow:rgb(218, 44, 0);
+  --box-shadow: rgb(214, 0, 0) 0px 0px 10px;
+
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-image: url(../../public/background.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  direction: rtl;
+}
+
+
+iframe{
+  height: 100vb;
+  width: 100%;
+  
+}
+@media (max-width: 600px){
+
+  body {
+    color: rgb(var(--foreground-rgb));
+    background-image: url(../../public/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+  }
+  
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  
+  body {
+    color: rgb(var(--foreground-rgb));
+    background-image: url(../../public/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+  }
+  
+  
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

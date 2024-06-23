@@ -1,0 +1,40 @@
+li>a {
+    position: relative;
+    transition: all .5s;
+  }
+  
+  li>a::before, li>a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--color);
+    transform: scaleY(0);
+    transition: transform 0.5s ease;
+  }
+  
+  li>a::before {
+    left: -8px;
+    transform-origin: center top;
+  }
+  
+  li>a:hover::before {
+    transform-origin: center bottom;
+    transform: scaleY(1);
+  }
+  
+  li>a::after {
+    right: -8px;
+    transform-origin: center bottom;
+  }
+  
+  li>a:hover::after {
+    transform-origin: center top;
+    transform: scaleY(1);
+  }
+
+  li>a:hover{
+    color: var(--color-tow);
+  }
+  

@@ -1,0 +1,75 @@
+.sectionnnpt{
+    margin: 50px;
+    padding: 50px;
+    background-color: var(--back-grond-box-ather);
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionnnpt>h1{
+    color: var(--color-tow);
+}
+
+.sectionnnpt>p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color);
+}
+
+.redLink{
+    color: var(--color-tow);
+}
+
+.bookButton{
+    padding: 10px 20px;
+    border: none;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+    border-radius: 15px;
+    background-color: var(--back-grond-box-ather);
+
+}
+
+.imagePlaceholder>img{
+    margin: auto;
+    border-radius: 15px;
+    height: 500px;
+    width: auto;
+    margin: 20px;
+}
+
+
+@media (max-width: 600px){
+    .sectionnnpt{
+        margin: 5px;
+        padding: 20px;
+        
+    }
+    
+
+    
+    .sectionnnpt>p{
+        font-size: 12px;
+        
+    }
+    
+  
+    
+    .bookButton{
+        padding: 10px 20px;
+       
+        margin: 7px;
+     
+    
+    }
+    
+    .imagePlaceholder>img{
+        margin: auto;
+        height: 400px;
+        margin: 5px;
+    }
+}

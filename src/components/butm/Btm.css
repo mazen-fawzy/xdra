@@ -1,0 +1,101 @@
+.btm-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sec-box-btm{
+
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    color: var(--color-tow);
+    font-size: 18px;
+    font-weight: 600;display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--back-grond-box-ather);
+    border-radius: 15px;
+    box-shadow: var( --box-shadow);
+
+
+}
+
+.sec-box-btm>p{
+
+    font-size: 16px;
+
+    font-weight: 500;
+    color: var(--color);
+}
+
+.sec-box-btm>p>a{
+
+    font-size: 16px;
+
+    font-weight: 500;
+    color: var(--color-tow);
+
+}
+
+
+@media (max-width: 600px){
+
+   
+    
+    .sec-box-btm{
+    
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        margin: 5px;
+        
+    
+    
+    }
+    
+    .sec-box-btm>p{
+    
+        font-size: 12px;
+ 
+    }
+    
+    .sec-box-btm>p>a{
+    
+        font-size: 12px;
+    
+    }
+    
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+        
+    .sec-box-btm{
+    
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        margin: 5px;
+        
+    
+    
+    }
+    
+    .sec-box-btm>p{
+    
+        font-size: 12px;
+ 
+    }
+    
+    .sec-box-btm>p>a{
+    
+        font-size: 12px;
+    
+    }
+
+}

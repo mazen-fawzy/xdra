@@ -1,0 +1,94 @@
+.Btn>a>button{
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    color: var(--color);
+    background-color: transparent;
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: all .2s;
+    font-weight: 600;
+
+}
+
+.Btn>a>button:hover{
+    color: var(--color-tow);
+}
+
+button {
+    z-index: 1;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: hsl(236, 32%, 26%);
+  }
+  
+  button:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+    
+  }
+  
+  @keyframes jelly {
+    0%,
+    100% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
+  
+
+  @media (max-width: 600px){
+
+    .Btn>a>button{
+      padding: 4px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 10px;
+  
+  }
+  
+  .Btn>a>button:hover{
+      color: var(--color-tow);
+  }
+  
+
+  }
+
+
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+
+    .Btn>a>button{
+      padding: 4px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 10px;
+  
+  }
+  
+  .Btn>a>button:hover{
+      color: var(--color-tow);
+  }
+  
+
+
+  }
