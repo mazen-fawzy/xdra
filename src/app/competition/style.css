@@ -42,6 +42,10 @@
     margin: 20px;
 }
 
+.bookButton>a{
+    color: var(--color);
+}
+
 
 @media (max-width: 600px){
     .sectionnnpt{
@@ -69,7 +73,7 @@
     
     .imagePlaceholder>img{
         margin: auto;
-        height: 400px;
+        height: 360px;
         margin: 5px;
     }
 }
